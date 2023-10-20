@@ -2,12 +2,12 @@
 /**
  *------
  * BGA framework: © Gregory Isabelli <gisabelli@boardgamearena.com> & Emmanuel Colin <ecolin@boardgamearena.com>
- * Surakarta implementation : © <Your name here> <Your email address here>
+ * Surakarta implementation : © <Raphaël Bellec> <surakarta_bga@bellec.in>
  *
  * This code has been produced on the BGA studio platform for use on http://boardgamearena.com.
  * See http://en.boardgamearena.com/#!doc/Studio for more information.
  * -----
- * 
+ *
  * states.inc.php
  *
  * Surakarta game states description
@@ -49,7 +49,7 @@
 
 //    !! It is not a good idea to modify this file when a game is running !!
 
- 
+
 $machinestates = array(
 
     // The initial state. Please do not modify.
@@ -60,7 +60,7 @@ $machinestates = array(
         "action" => "stGameSetup",
         "transitions" => array( "" => 2 )
     ),
-    
+
     // Note: ID=2 => your first state
 
     2 => array(
@@ -71,19 +71,19 @@ $machinestates = array(
     		"possibleactions" => array( "playCard", "pass" ),
     		"transitions" => array( "playCard" => 2, "pass" => 2 )
     ),
-    
+
 /*
     Examples:
-    
+
     2 => array(
         "name" => "nextPlayer",
         "description" => '',
         "type" => "game",
         "action" => "stNextPlayer",
-        "updateGameProgression" => true,   
+        "updateGameProgression" => true,
         "transitions" => array( "endGame" => 99, "nextPlayer" => 10 )
     ),
-    
+
     10 => array(
         "name" => "playerTurn",
         "description" => clienttranslate('${actplayer} must play a card or pass'),
@@ -91,10 +91,10 @@ $machinestates = array(
         "type" => "activeplayer",
         "possibleactions" => array( "playCard", "pass" ),
         "transitions" => array( "playCard" => 2, "pass" => 2 )
-    ), 
+    ),
 
-*/    
-   
+*/
+
     // Final state.
     // Please do not modify (and do not overload action/args methods).
     99 => array(
