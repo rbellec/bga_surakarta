@@ -67,6 +67,37 @@
     }
 */
 
+.board {
+  background-color: grey; }
+
+.grid {
+  stroke: yellow;
+  stroke-width: 6; }
+
+.loop {
+  stroke: black;
+  stroke-width: 12;
+  fill: none; }
+
+.loop_path_2 {
+  stroke: blue; }
+
+.loop_path_3 {
+  stroke: red; }
+
+.player_1 {
+  stroke-width: 1;
+  fill: white; }
+
+.player_2 {
+  stroke-width: 1;
+  fill: black; }
+
+.empty {
+  stroke: black;
+  stroke-width: 1;
+  fill: none; }
+
 
 
 
