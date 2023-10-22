@@ -67,7 +67,8 @@
     }
 */
 
-.board {
+.board_image {
+  width: 50%;
   background-color: grey; }
 
 .grid {

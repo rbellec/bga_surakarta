@@ -30,7 +30,7 @@ Surakarta
 
 <div id="board">
 
-  <svg class="board" viewBox="-250 -250 1000 1000" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
+  <svg class="board_image" viewBox="-250 -250 1000 1000" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
     <!-- Generated using https://github.com/rbellec/surakarta_svg_board, need CSS for proper display.-->
     <path class="loop loop_path_2"
       d="M 100 0 A 100 100 0 1 0 0 100 H 500 A 100 100 0 1 0 400 0 V 500 A 100 100 0 1 0 500 400 H 0 A 100 100 0 1 0 100 500  V 0 Z">
